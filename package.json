@@ -4,23 +4,38 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build --webpack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "seed:admin": "tsx src/scripts/seed-admin.ts",
+    "test:phase3": "tsx src/scripts/test-phase3.ts"
   },
   "dependencies": {
+    "@hookform/resolvers": "^7.0.8",
+    "@tailwindcss/postcss": "^4.3.5",
+    "bcryptjs": "^3.0.3",
+    "cloudinary": "^2.11.0",
+    "framer-motion": "^14.14.0",
+    "jose": "^6.2.18",
+    "lucide-react": "^1.77.0",
+    "mongoose": "^9.12.3",
     "next": "16.4.6",
+    "postcss": "^8.5.33",
     "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react-dom": "19.3.0",
+    "react-hook-form": "^7.92.0",
+    "zod": "^4.6.7"
   },
   "devDependencies": {
     "@tailwindcss/turbopack": "4.3.3",
+    "@types/bcryptjs": "^2.4.6",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.4.6",
     "tailwindcss": "4.3.3",
+    "tsx": "^4.23.15",
     "typescript": "^5"
   }
 }

@@ -1,0 +1,15 @@
+▲ Next.js 16.4.6 (Turbopack)
+- Local:         http://localhost:3006
+- Network:       http://192.168.1.6:3006
+- Environments: .env.local
+✓ Ready in 587ms
+✓ Running next.config.ts took 39ms
+⚠ The "middleware" file convention is deprecated. Please use "proxy" instead.
+
+  To migrate automatically, run:
+  npx @next/codemod@canary middleware-to-proxy .
+
+  Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+
+Google Places API error: 403 Forbidden
+ GET / 200 in 1897ms (next.js: 297ms, application-code: 1600ms)
